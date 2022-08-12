@@ -6,8 +6,7 @@ public class Login {
     public static Boolean isAdmin;
 
     Login() {
-
-
+        
     }
 
     Login(Integer id, Boolean isAdmin) {
