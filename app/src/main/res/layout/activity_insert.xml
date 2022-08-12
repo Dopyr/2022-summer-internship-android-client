@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".AdminActivity">
+
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="  ID"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <EditText
+        android:id="@+id/editText32"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="  Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/editText31"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText31"
+        app:layout_constraintTop_toBottomOf="@+id/editText31" />
+
+    <EditText
+        android:id="@+id/editText33"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="  Surname"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/editText32"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText32"
+        app:layout_constraintTop_toBottomOf="@+id/editText32" />
+
+    <Button
+        android:id="@+id/buttonReturn3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/gradient_button"
+        android:text="Return"
+        app:layout_constraintEnd_toEndOf="@+id/buttonInsert"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonInsert"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInsert" />
+
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="101dp"
+        android:background="@drawable/gradient_button"
+        android:text="Insert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText35" />
+
+    <EditText
+        android:id="@+id/editText34"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_margin="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="  Major"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buttonInsert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText33"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editText35"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_margin="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="  GPA"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buttonInsert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText34"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

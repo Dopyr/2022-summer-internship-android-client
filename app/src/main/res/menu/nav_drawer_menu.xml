@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/searchItem"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/insertItem"
+        android:title="Insert" />
+
+    <item
+        android:id="@+id/fetchItem"
+        android:title="Fetch" />
+
+
+</menu>
