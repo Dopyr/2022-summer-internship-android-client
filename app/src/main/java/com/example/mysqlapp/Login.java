@@ -18,6 +18,7 @@ public class Login {
     }
 
     public Boolean isAdmin() {
+
         return isAdmin;
     }
 }
